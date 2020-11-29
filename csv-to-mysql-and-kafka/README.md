@@ -35,7 +35,7 @@ For windows, `.bat` files are available under "bin/windows".
 
 ##### Create a Kafka topic which is configured in the NiFi
 `$ bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic <topicname>`
-In our case *topicname* is "".
+In our case *topicname* is "high-alarm".
 ### Start the process group to run nifi processes
 You can start individual processes in NiFi one by one for testing the flow or start the entire process group to run the application.
 After starting the application you can check the table for new values and based on the condition JSON data will be routed to the Kafka topic. You can view the data by running the client project provided in this folder or using *kafka-console-consumer* To run *kafka-console-consumer*:
