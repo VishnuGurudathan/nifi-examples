@@ -5,6 +5,9 @@ The purpose of the template file is to parse the CSV file and store its data to 
 To use a template the first step is to import the template into the running instance of NiFi. You can import templates into the canvas using the *Operate Palette*. From the Operate Palette, click the "Upload Template" button, this will open an Upload Template dialog. Find and choose the template file to be imported to the instance of NiFi.
 In our case clone the repository or download the template file *logger_data_parsing_template.xml*, and import it to the NiFi canvas.
 
+Below image shows NiFi canvas image for this example using template file *logger_data_parsing_template.xml*
+![NiFi canvas image of complete process](https://github.com/VishnuGurudathan/nifi-examples/blob/develop/csv-to-mysql-and-kafka/image.png)
+
 
 ## Updating template custom properties and starting the process.
 ### Update template custom properties
