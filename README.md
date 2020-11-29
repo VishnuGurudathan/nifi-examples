@@ -16,3 +16,6 @@ You can use the below command to download and run the latest version of NiFi wit
 docker run -d -h nifi -p 8080:8080 --name nifi_latest --memory=4g -v /docker/apache/nifi apache/nifi:latest
 ```
 When you start NiFi, you land on its web interface. The web UI is the blueprint on which you design and control your data pipeline. You can access the web interface by [http://localhost:8080/nifi](http://localhost:8080/nifi)
+
+## Examples
+- [csv-to-mysql-and-kafka](https://github.com/VishnuGurudathan/nifi-examples/tree/main/csv-to-mysql-and-kafka) - Parse and save data from CSV file to database and route flow to Kafka based on some condition.
