@@ -4,14 +4,15 @@ The purpose of the template file is to parse the CSV file and store its data to 
 ## Importing template file to NiFi
 To use a template the first step is to import the template into the running instance of NiFi. You can import templates into the canvas using the *Operate Palette*. From the Operate Palette, click the "Upload Template" button, this will open an Upload Template dialog. Find and choose the template file to be imported to the instance of NiFi.
 In our case clone the repository or download the template file *logger_data_parsing_template.xml*, and import it to the NiFi canvas.
-In this example, we create a custom property file 'conf/logger-data-parsing.properties' to add property values for NiFi processors. Ensure that:
+
+
+## Updating template custom properties and starting the process.
+### Update template custom properties
+In this example, we create a custom property file '*conf/logger-data-parsing.properties*' to add property values for NiFi processors. Ensure that:
 - Each custom property contains a distinct property value so that it is not overridden by existing environment properties, system properties, or FlowFile attributes.
 - Each node in a clustered environment is configured with the same custom properties(applicable for the clustered environments).
 - Update *nifi.variable.registry.properties* in *nifi.properties* file with the location of the custom property file(s)
 - Restart your NiFi instance(s) for the updates to be picked up.
-
-## Updating template configuration and starting the process.
-### Update template configuration
 ### Create database and table
 You can find script.sql file in this folder which can be used to create database 'logger_data_db' and table 'logger_data' in MySQL.
 ### Kafka single node setup
