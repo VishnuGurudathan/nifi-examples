@@ -6,7 +6,7 @@ To use a template the first step is to import the template into the running inst
 In our case clone the repository or download the template file *logger_data_parsing_template.xml*, and import it to the NiFi canvas.
 
 Below image shows NiFi canvas image for this example using template file *logger_data_parsing_template.xml*
-![NiFi canvas image of complete process](https://github.com/VishnuGurudathan/nifi-examples/blob/develop/csv-to-mysql-and-kafka/image.png)
+![NiFi canvas image of complete process](https://github.com/VishnuGurudathan/nifi-examples/blob/main/csv-to-mysql-and-kafka/image.png)
 
 
 ## Updating template custom properties and starting the process.
