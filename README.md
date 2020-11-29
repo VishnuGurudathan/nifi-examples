@@ -6,7 +6,7 @@ NiFi can be started by simply downloding binary file or using docker image.
 
 ### Download and run NiFi 
 Download the NiFi binary file from [Apache Nifi's official website.](https://nifi.apache.org/download.html)
-- Choose nifi-x.y.z-bin.zip (eg, nifi-1.12.1-bin.zip).
+- Choose nifi-x.y.z-bin.zip or nifi-x.y.z-tar.gz for Linux (eg, nifi-1.12.1-bin.zip).
 - Extract to a specific folder (eg. \home\username\nifi).
 - Find and execute run-nifi.bat or run.sh in “your nifi folder\bin\” based on the operating environment.
 ### Run a NiFi container
